@@ -11,7 +11,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Post('/generateMnemonic')
+  @Get('/generateMnemonic')
   generateMnemonic() {
     return {
       code: 0,
